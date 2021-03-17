@@ -1,0 +1,691 @@
+
+/*HEADER*/
+#home .logo {
+    font-size: 30px;
+    color: #77a9ca;
+}
+
+/*MENU*/
+
+#navegacao li a {
+    color: #393939;
+    font-size: .8125rem;
+    text-transform: uppercase;
+    padding: 20px;
+    letter-spacing: .0625rem;
+}
+
+#navegacao li a:hover {
+    border-bottom: 1px solid #77a9ca;
+    padding-bottom: 5px;
+}
+
+#home #navegacao .home a,
+#sobrenos #navegacao .sobrenos a,
+#serviços-pagina #navegacao .serviços-pagina a,
+#contato #navegacao .contato a{
+    border-bottom: 1px solid #77a9ca;
+    padding-bottom: 5px;
+}
+
+
+/*SECTION CLÍNICA*/
+#secao-principal {
+    height: 460px;
+    background-image: url("../Fotos/capa-principal.jpg");   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.capa {
+    text-align: right;
+}
+
+.capa h1 {
+    color: #77a9ca;;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.capa h2 {
+   color: #92bad4;
+   padding: 5px;
+   font-size: 20px;
+}
+
+/*SECTION EMERGENCIA*/
+#emergencia {
+    height: 397px;
+    background-image: url("../Fotos/capa-secundaria.jpg");   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.capa-emergencia {
+    text-align: center;
+}
+
+.capa-emergencia h1 {
+    font-size: 45px;
+}
+
+.capa-emergencia h1,p {
+    color: white;
+}
+
+/*SECTION CLÍNICA*/
+#clinica {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 650px;
+}
+
+#clinica h1 {
+    font-size: 80px;
+}
+
+.paragrafo {
+    color: #4F4F4F;
+}
+
+/*SECTION CLÍNICA - GALERIA*/
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.2s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.2);
+}
+
+#galeria {
+    padding-top: 45px;
+}
+
+/*SECTION SERVIÇOS*/
+#servicos {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 680px;
+}
+
+#servicos h3 {
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 40px;
+}
+
+#item-servicos {
+    padding-top: 45px;
+}
+
+#item-servicos p {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #808080;
+}
+
+/*SECTION VETERINÁRIO*/
+#veterinario {
+    background: #77a9ca;
+    color: white;
+    height: 611px;
+}
+
+#veterinario button {
+    margin-top: 40px;
+    border: none;
+    width: 20%;
+    height: 60px;
+    font-size: 1.2em;
+}
+
+#veterinario button:hover {
+    background: #D3D3D3;
+}
+
+/*RODAPÉ*/
+footer {
+    height: 120px;
+}
+
+footer span {
+    border-bottom: 1px solid #4F4F4F;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+
+/*    SOBRE NÓS - ESTILO     */
+
+#sobre-principal {
+    height: 320px;
+    background: #77a9ca;
+    color: white;
+}
+
+#equipe {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 650px;
+}
+
+#equipe h2 {
+    font-size: 38px;
+}
+
+#equipe p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+/*SERVIÇOS*/
+#servicos-principal {
+    height: 320px;
+    background: #77a9ca;
+    color: white;
+}
+
+#servico-conteudo {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 1385px;
+}
+
+#servico-conteudo h1 {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 2.25rem;
+}
+
+#servico-conteudo h2 {
+    font-size: 38px;
+}
+
+#servico-conteudo p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+#servico-conteudo-secundario {
+    padding: 0 0.9375rem;
+}
+
+
+/*------------------------------------------*/
+
+/*CONTATO*/
+#contato-principal {
+    height: 320px;
+    background: #77a9ca;
+    color: white;
+}
+
+#mapa {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 600px;
+}
+
+.mapa-conteudo {
+    padding-bottom: 15px;
+}
+
+.mapa-conteudo p{
+    font-size: 1.375rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.mapa-conteudo i {
+    padding-right: 25px;
+}
+
+#mapa .paragrafo-mapa-especial {
+    font-size: 15px;
+    color: #969696;
+}
+
+#mapa h2 {
+    font-size: 2.25rem;
+    color: #393939;
+}
+
+#mapa a {
+    text-decoration: none;
+    color: #454545;
+}
+
+#mapa span {
+    text-decoration: none;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+#mapa span:hover {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.paragrafo-span {
+    font-size: 1.375rem;
+}
+
+.icone-mapa {
+    color: #99bed7;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+/*MEDIA QUERIE*/
+/*Portrait phones, less than 579px*/
+@media (max-width: 575.98px){
+    section#emergencia {
+        height: 800px;
+    }
+    .capa-emergencia #foto-emergencia {
+        height: 410px;
+        width: 410px;
+    }
+
+    /*SERVIÇOS*/
+    section#servicos {
+        height: 840px;
+    }
+
+    #servicos #item-servicos {
+        padding-top: 10px;
+    }
+
+    #servicos .galeria-foto {
+        width: 60px;
+        height: 60px;
+        float: left;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    #servicos .formatacao-servico {
+        text-align: left;
+        margin-left: 50px;
+        padding-left: 30px;
+    }
+
+    /*VETERINÁRIO*/
+    section#veterinario {
+        height: 400px;
+    }
+    section#veterinario button {
+        width: 40%;
+    }
+
+    /*CLÍNICA*/
+    section#clinica {
+        height: 800px;
+    }
+
+    #clinica .galeria-clinica {
+        width: 420.5px;
+        height: 420.5px; 
+    }
+
+
+    /*-----------------------*/
+
+    /*SOBRE-NÓS*/
+    section#sobre-principal {
+        height: 200px;
+    }
+
+    /*EQUIPE*/
+    #equipe {
+        height: 950px;
+    }
+    #equipe p {
+        padding-top: 25px;
+    }
+
+    /*-----------------------*/
+
+    /*SERVIÇOS*/
+    section#servicos-principal {
+        height: 200px;
+    }
+    
+    #servico-conteudo {
+        height: 2300px;
+    }
+
+    #servico-conteudo h2{
+        font-size: 1.625rem;
+    }
+
+    #servico-conteudo-secundario {
+        padding-top: 25px;
+    }
+
+     /*-----------------------*/
+
+    /*CONTATO*/
+    section#contato-principal {
+        height: 200px;
+    }
+    
+    #mapa {
+        height: 930px;
+    }
+
+    #mapa h2{
+        font-size: 1.625rem;
+    }
+
+    #mapa-secundario {
+        padding-top: 25px;
+    }
+
+
+}
+/*Landscape phones, 576px and up*/
+@media (min-width: 576px) and (max-width: 767.98px){
+    section#emergencia {
+        height: 800px;
+    }
+    .capa-emergencia #foto-emergencia {
+        height: 410px;
+        width: 410px;
+    }
+
+    /*SERVIÇOS*/
+    section#servicos {
+        height: 800px;
+    }
+
+    #servicos #item-servicos {
+        padding-top: 10px;
+    }
+
+    #servicos .galeria-foto {
+        width: 60px;
+        height: 60px;
+        float: left;
+        margin-left: 15px;
+    }
+
+    #servicos .formatacao-servico {
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    /*VETERINÁRIO*/
+    section#veterinario {
+        height: 400px;
+    }
+    section#veterinario button {
+        width: 40%;
+    }
+
+    /*CLÍNICA*/
+    section#clinica {
+        height: 800px;
+    }
+
+    #clinica .galeria-clinica {
+        width: 223.5px;
+        height: 223.5px; 
+    }
+
+    #clinica .galeria-clinica-secundario {
+        width: 223.5px;
+        height: 223.5px; 
+        margin-top: 30px;
+    }
+
+    
+
+    /*-----------------------*/
+
+    /*SOBRE-NÓS*/
+    section#sobre-principal {
+        height: 200px;
+    }
+
+    /*EQUIPE*/
+     #equipe {
+            height: 960px;
+    }
+    #equipe p {
+            padding-top: 25px;
+    }
+
+    /*-----------------------*/
+
+    /*SERVIÇOS*/
+    section#servicos-principal {
+        height: 200px;
+    }
+    
+    #servico-conteudo {
+        height: 2400px;
+    }
+
+    #servico-conteudo h2{
+        font-size: 2.25rem;
+        line-height: 1.44444;
+        color: #393939;
+    }
+
+    #servico-conteudo-secundario {
+        padding-top: 25px;
+    }
+
+
+    /*-----------------------*/
+
+    /*CONTATO*/
+    section#contato-principal {
+        height: 250px;
+    }
+    
+    #mapa {
+        height: 1000px;
+    }
+
+    #mapa #imagem-mapa{
+        width: 352.78px;
+        height: 221.11px;
+        margin-left: 30px;
+        margin-left: 0px;
+    }
+
+    #mapa h2{
+        font-size: 2rem;
+    }
+
+    #mapa-secundario {
+        padding-top: 25px;
+        float: right;
+    }
+
+    #mapa-secundario h3{
+        box-sizing: border-box;
+        font-size: 1.25rem;
+    }
+
+    #mapa-secundario .paragrafo-mapa-especial {
+        box-sizing: border-box;
+        text-align: left;
+        font-size: .95rem;
+    }
+
+    #mapa-secundario p {
+        font-size: 1.25rem;
+    }
+}
+
+/*Tablets, 768px and up*/
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    /*SERVIÇOS*/
+    section#servicos {
+        height: 800px;
+    }
+
+    /*EQUIPE*/
+    #equipe {
+        height: 680px;
+    }
+    #equipe p {
+        padding-top: 25px;
+    }   
+
+    /*-----------------------*/
+
+    /*SOBRE-NÓS*/
+    section#sobre-principal {
+        height: 200px;
+    }
+
+    /*EQUIPE*/
+     #equipe {
+            height: 960px;
+    }
+    #equipe p {
+            padding-top: 25px;
+    }
+
+    /*-----------------------*/
+
+    /*SERVIÇOS*/
+    section#servicos-principal {
+        height: 250px;
+    }
+    
+    #servico-conteudo {
+        height: 1800px;
+    }
+
+    #servico-conteudo h2{
+        font-size: 2rem;
+    }
+
+    #servico-conteudo-secundario {
+        padding-top: 25px;
+    }
+
+    #servico-conteudo img {
+        width: 412.5;
+        height: 275px;
+        margin-top: 35px;
+    }
+
+    /*-----------------------*/
+
+    /*CONTATO*/
+    section#contato-principal {
+        height: 250px;
+    }
+    
+    #mapa {
+        height: 600px;
+    }
+
+    #mapa #imagem-mapa{
+        width: 426.109px;
+        height: 246.531px;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    #mapa h2{
+        font-size: 2rem;
+    }
+
+    #mapa-secundario {
+        padding-top: 25px;
+        padding-left: 40px;
+        float: right;
+    }
+
+    #mapa-secundario h3{
+        box-sizing: border-box;
+        font-size: 1.25rem;
+    }
+
+    #mapa-secundario .paragrafo-mapa-especial {
+        box-sizing: border-box;
+        text-align: left;
+        font-size: .95rem;
+    }
+
+    #mapa-secundario p {
+        font-size: 15px;
+    }
+}
+
+/*Desktop, 992px and up*/
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    /*CONTATO*/
+    section#contato-principal {
+        height: 300px;
+    }
+    
+    #mapa {
+        height: 600px;
+    }
+
+    #mapa #imagem-mapa{
+        width: 558.34px;
+        height: 346.91px;
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    #mapa h2{
+        font-size: 2rem;
+    }
+
+    #mapa-secundario {
+        padding-top: 25px;
+        padding-left: 40px;
+        float: right;
+    }
+
+    #mapa-secundario h3{
+        box-sizing: border-box;
+        font-size: 1.25rem;
+    }
+
+    #mapa-secundario .paragrafo-mapa-especial {
+        box-sizing: border-box;
+        text-align: left;
+        font-size: .95rem;
+    }
+
+    #mapa-secundario p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px){
+    /*CONTATO*/
+    section#contato-principal {
+        height: 300px;
+    }
+    
+    #mapa {
+        height: 600px;
+    }
+
+    #mapa #imagem-mapa{
+        width: 635.13px;
+        height: 392.36px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }    
+}
